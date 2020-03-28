@@ -31,10 +31,6 @@ for link in search_results[:6]:
 
 
 
-
-
-
-
 # FOR CSV
 df = pandas.DataFrame(data={"Headline": titles, "Link": linksArray})
 df.to_csv("./flightStatus.csv", sep=',',index=False)
